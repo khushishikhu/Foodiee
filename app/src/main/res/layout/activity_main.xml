@@ -10,6 +10,12 @@
     tools:visibility="visible">
 
     <LinearLayout
+        android:id="@+id/cup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="40dp"
@@ -25,6 +31,7 @@
             android:layout_width="237dp"
             android:layout_height="126dp"
             android:layout_gravity="center"
+            android:contentDescription="@string/todo"
             app:srcCompat="@drawable/logo" />
 
         <TextView
@@ -33,10 +40,10 @@
             android:layout_height="wrap_content"
             android:fontFamily="cursive"
             android:gravity="center"
-            android:text="Cup Princess"
+            android:text="@string/cup_princess"
             android:textColor="#EFEAEA"
             android:textColorHint="#000000"
-            android:textSize="60dp" />
+            android:textSize="60sp" />
 
         <Button
             android:id="@+id/button"
@@ -44,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:background="@drawable/btn_gradient"
-            android:text="Log In"
+            android:text="@string/log_in"
             android:textSize="18sp" />
 
         <Button
@@ -53,7 +60,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:background="@drawable/btn_gradient"
-            android:text="Register"
+            android:text="@string/register"
             android:textSize="18sp" />
 
         <TextView
@@ -62,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
             android:gravity="center"
-            android:text="Already Logged In"
+            android:text="@string/already_logged_in"
             android:textColor="#CFD4D8"
             android:textSize="18sp" />
     </LinearLayout>

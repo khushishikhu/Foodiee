@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Food App</string>
+    <string name="cup_princess">Cup Princess</string>
+    <string name="already_logged_in">Already Logged In</string>
+    <string name="register">Register</string>
+    <string name="todo">TODO</string>
+    <string name="log_in">Log In</string>
 </resources>
